@@ -1,0 +1,26 @@
+
+img {
+    width: 250px; 
+    min-height: 250px;
+}
+.t1{
+float:right;
+}
+.container-fluid {
+    
+	
+    background-color:black;
+	color:white;
+  
+	
+	
+
+}
+.container-fluid a{
+	text-decoration:none;
+	color:white;
+}
+.container h2{
+font-family: "comic sans MS";
+font-size:40px;
+}

@@ -1,0 +1,60 @@
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: 50%;
+}
+#footer {
+	
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color:white;
+   position:relative;
+   height:40%;
+   text-align:center;
+
+}
+#footer a{
+text-decoration:none;
+color:white;
+}
+#footer #footab th{
+text-align:center;
+}
+
+.carousel-inner {
+  width:640px;
+  height:360px;
+}
+.c1 img{
+	padding:100 px;
+}
+.container h2{
+font-family: "comic sans MS";
+font-size:40px;
+}
+
+
+
+.container-fluid {
+    
+	
+    background-color:black;
+	color:white;
+  
+	
+	
+
+}
+.container-fluid a{
+	text-decoration:none;
+	color:white;
+}
+
+
+#ft1{
+	
+left:0px;
+bottom:opx;
+}

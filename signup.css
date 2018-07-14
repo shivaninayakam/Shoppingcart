@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.container1 {
+    
+	
+    background-image: url("s1.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display:flex;
+	flex-direction:column;
+	padding:0 20px;
+	
+	
+
+}
+}
+
+.container1 img {vertical-align: middle;}
+
+.container1 .content {
+    position: absolute;
+    max-width:450px;
+    top: 25%;
+    left:30%;
+    
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}

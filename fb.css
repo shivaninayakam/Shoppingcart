@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+	color:black;
+}
+
+.first .container-fluid{
+    
+	
+    background-image: url("fb1.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display:flex;
+	flex-direction:column;
+	
+	
+
+}
+input[type="password"] {
+    color:black;
+}
+
+input[type="text"] {
+    color:black;
+}
+input[type="email"] {
+    color:black;
+}
+ .container h2{
+font-family: "comic sans MS";
+font-size:40px;
+}
+#ta{
+	
+color:black;
+}
+
+
+.first .container-fluid img {vertical-align: middle;}
+
+.first .container-fluid .content {
+    position: absolute;
+    max-width:450px;
+    top: 20%;
+    left:30%;
+    
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 40px;
+}

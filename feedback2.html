@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.container {
+    
+	
+    background-image: url("fb1.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display:flex;
+	flex-direction:column;
+	padding:0 20px;
+	
+	
+
+}
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+    position: absolute;
+    max-width:450px;
+    top: 5%;
+    left:30%;
+    
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+</style>
+</head>
+<body style=background:"black">
+
+<div class="container">
+  
+  <div class="content">
+  <h2>RATE MY WEBSITE</h2>
+  <p>please let us know ur experince with our website</p>
+  <form>
+  <table cellspacing="13">
+  <tr>
+  <td>FIRST NAME:</td>
+  <td><input type="text"></td>
+  </tr>
+  <tr>
+  <td>LAST NAME</td>
+  <td><input type="text"></td>
+  </tr>
+  <tr>
+  <td>EMAIL</td>
+  <td><input type="email"></td>
+  </tr>
+  <tr>
+  <td>please rate my website</td>
+  <td><input type="radio" name="chooseone" value="excellent">Excellent<br />
+  <input type="radio" name="chooseone" value="good">Good<br />
+  <input type="radio" name="chooseone" value="average">Average<br />
+  <input type="radio" name="chooseone" value=" bad">Bad<br /></td>
+  <tr>
+  <td>How would you suggest to improve it</td>
+  <td><textarea rows="7" cols="12"></textarea></td>
+  </tr>
+  <tr rowspan="2">
+  <td align="center"><input type="Submit" value="Submit" ></td>
+    </tr>
+	</div>
+</div>
+
+</body>
+</html>
